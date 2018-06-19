@@ -274,7 +274,10 @@ debug.composition.type=gpu
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     debug.sf.enable_gl_backpressure=1 \
-    debug.sf.early_phase_offset_ns=5000000 \
+    debug.sf.early_phase_offset_ns=500000 \
+    debug.sf.early_app_phase_offset_ns=500000 \
+    debug.sf.early_gl_phase_offset_ns=3000000 \
+    debug.sf.early_gl_app_phase_offset_ns=15000000 \
     ro.surface_flinger.protected_contents=true \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000 \
     ro.surface_flinger.use_color_management=true
