@@ -271,3 +271,6 @@ debug.egl.profiler=1
 debug.egl.hw=1
 debug.composition.type=gpu
 
+# SurfaceFlinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.protected_contents=true
