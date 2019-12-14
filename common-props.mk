@@ -194,3 +194,23 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.ssr.enable_ramdumps=0 \
     persist.vendor.ssr.restart_level=ALL_ENABLE
+
+#Tweaks
+ro.telephony.call_ring.delay=0
+ring.delay=0
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+ro.lge.proximity.delay=25
+mot.proximity.delay=25
+windowsmgr.max_events_per_sec=150
+ro.min_pointer_dur=8
+ro.max.fling_velocity=12000
+ro.min.fling_velocity=8000
+ro.ril.enable.amr.wideband=1
+ro.media.enc.jpeg.quality=100
+wifi.supplicant_scan_interval=100
+ro.config.hw_quickpoweron=true
+persist.cust.tel.eons=1
+ro.config.hw_fast_dormancy=10
+logcat.live=disable
+sys.use_fifo_ui=1
